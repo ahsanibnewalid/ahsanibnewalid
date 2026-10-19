@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Ahsan Ibne Walid — Software Developer</title>
+  <desc id="desc">A dark, minimal developer banner featuring software engineering, Linux, web platforms, and automation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#172554"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#94a3b8" stroke-opacity=".10" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+  <circle cx="1050" cy="75" r="150" fill="#2563eb" opacity=".12"/>
+  <circle cx="1100" cy="300" r="170" fill="#7c3aed" opacity=".12"/>
+  <rect x="70" y="66" width="5" height="226" rx="2.5" fill="url(#accent)"/>
+  <text x="105" y="112" fill="#93c5fd" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" letter-spacing="4">SOFTWARE • SYSTEMS • PRODUCT</text>
+  <text x="100" y="177" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="48" font-weight="700">Ahsan Ibne Walid</text>
+  <text x="103" y="220" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">Building useful software from Linux tools to full-stack platforms.</text>
+  <g transform="translate(104 260)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">
+    <rect width="122" height="34" rx="17" fill="#0f172a" stroke="#334155"/><text x="61" y="22" fill="#7dd3fc" text-anchor="middle">Linux</text>
+    <rect x="134" width="144" height="34" rx="17" fill="#0f172a" stroke="#334155"/><text x="206" y="22" fill="#c4b5fd" text-anchor="middle">Full-stack</text>
+    <rect x="290" width="148" height="34" rx="17" fill="#0f172a" stroke="#334155"/><text x="364" y="22" fill="#86efac" text-anchor="middle">Automation</text>
+    <rect x="450" width="132" height="34" rx="17" fill="#0f172a" stroke="#334155"/><text x="516" y="22" fill="#fcd34d" text-anchor="middle">Security</text>
+  </g>
+  <g transform="translate(850 110)" fill="none" stroke="url(#accent)" stroke-width="2">
+    <rect x="0" y="0" width="240" height="150" rx="14" stroke-opacity=".7"/>
+    <path d="M0 35H240" stroke-opacity=".5"/>
+    <circle cx="20" cy="18" r="4" fill="#fb7185" stroke="none"/><circle cx="35" cy="18" r="4" fill="#fbbf24" stroke="none"/><circle cx="50" cy="18" r="4" fill="#34d399" stroke="none"/>
+    <path d="M24 65l-10 10 10 10M40 87l10-24M62 65l10 10-10 10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M95 65h105M95 82h80M95 99h93" stroke-opacity=".7" stroke-linecap="round"/>
+    <path d="M24 120h176" stroke-opacity=".25" stroke-dasharray="4 7"/>
+  </g>
+</svg>
