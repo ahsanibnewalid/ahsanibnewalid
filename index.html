@@ -69,25 +69,53 @@
 <article class="reveal rounded-2xl border border-white/[.08] bg-white/[.02] p-5"><span class="text-xl text-emerald-200">↗</span><h3 class="mt-5 font-semibold">Document reality</h3><p class="mt-2 text-sm leading-6 text-slate-400">Make prerequisites, limitations, security assumptions, and setup steps clear.</p></article>
 </div></section>
 <section id="contact" class="border-t border-white/[.07]"><div class="mx-auto max-w-6xl px-5 py-24 sm:px-8 sm:py-32"><div class="grid gap-12 lg:grid-cols-[1fr_.8fr] lg:gap-20"><div class="reveal"><p class="mb-4 font-mono text-xs uppercase tracking-[.22em] text-emerald-200">04 / Contact</p><h2 class="text-4xl font-semibold leading-tight tracking-[-.05em] sm:text-5xl">Let’s build something <span class="grad">useful.</span></h2><p class="mt-6 max-w-lg leading-8 text-slate-400">Interested in software projects, collaboration, or exchanging ideas? Explore my work or reach out through one of my profiles.</p><div class="mt-8 flex flex-wrap gap-3"><a class="social" href="https://github.com/ahsanibnewalid" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a class="social" href="https://x.com/AhsanIbnewalid" target="_blank" rel="noopener noreferrer">X / Twitter ↗</a><a class="social" href="https://www.facebook.com/ahsanibnewalidshuvo" target="_blank" rel="noopener noreferrer">Facebook ↗</a></div><a class="mt-7 inline-flex items-center gap-3 text-sm text-slate-300 transition hover:text-emerald-200" href="https://github.com/ahsanibnewalid?tab=repositories">Browse my repositories <span class="text-emerald-200">↗</span></a></div>
-<div class="reveal glass rounded-2xl p-6 sm:p-8"><h3 class="text-lg font-semibold">Start a conversation</h3><p class="mt-2 text-sm leading-6 text-slate-400">Tell me a little about your idea. This lightweight form opens your email app with a prefilled draft.</p><form id="contactForm" class="mt-6 space-y-4"><div><label for="name" class="mb-2 block text-xs text-slate-300">Your name</label><input id="name" name="name" required autocomplete="name" placeholder="Name" class="w-full rounded-xl border border-white/10 bg-black/20 px-4 py-3 text-sm outline-none focus:border-emerald-200/50"></div><div><label for="email" class="mb-2 block text-xs text-slate-300">Your email</label><input id="email" name="email" type="email" required autocomplete="email" placeholder="you@example.com" class="w-full rounded-xl border border-white/10 bg-black/20 px-4 py-3 text-sm outline-none focus:border-emerald-200/50"></div><div><label for="message" class="mb-2 block text-xs text-slate-300">Message</label><textarea id="message" name="message" rows="4" required placeholder="What are you thinking about building?" class="w-full resize-y rounded-xl border border-white/10 bg-black/20 px-4 py-3 text-sm outline-none focus:border-emerald-200/50"></textarea></div><button class="focus w-full rounded-full bg-emerald-200 px-5 py-3.5 text-sm font-semibold text-[#07110b] transition hover:bg-emerald-100" type="submit">Prepare email draft ↗</button><p id="formnote" class="text-xs leading-5 text-slate-500">Email is not sent or stored by this page; your email app opens with the draft.</p></form></div></div>
+<div class="reveal glass rounded-2xl p-6 sm:p-8"><h3 class="text-lg font-semibold">Start a conversation</h3><p class="mt-2 text-sm leading-6 text-slate-400">Tell me a little about your idea. Send a message directly from this form—no email app required.</p><form id="contactForm" class="mt-6 space-y-4"><div><label for="name" class="mb-2 block text-xs text-slate-300">Your name</label><input id="name" name="name" required autocomplete="name" placeholder="Name" class="w-full rounded-xl border border-white/10 bg-black/20 px-4 py-3 text-sm outline-none focus:border-emerald-200/50"></div><div><label for="email" class="mb-2 block text-xs text-slate-300">Your email</label><input id="email" name="email" type="email" required autocomplete="email" placeholder="you@example.com" class="w-full rounded-xl border border-white/10 bg-black/20 px-4 py-3 text-sm outline-none focus:border-emerald-200/50"></div><div><label for="message" class="mb-2 block text-xs text-slate-300">Message</label><textarea id="message" name="message" rows="4" required placeholder="What are you thinking about building?" class="w-full resize-y rounded-xl border border-white/10 bg-black/20 px-4 py-3 text-sm outline-none focus:border-emerald-200/50"></textarea></div><button class="focus w-full rounded-full bg-emerald-200 px-5 py-3.5 text-sm font-semibold text-[#07110b] transition hover:bg-emerald-100" type="submit">Send message ↗</button><p id="formnote" role="status" aria-live="polite" class="text-xs leading-5 text-slate-400">Messages are sent through EmailJS after the service settings below are configured.</p></form></div></div>
 <footer class="mt-20 flex flex-col gap-4 border-t border-white/[.07] pt-6 text-xs text-slate-600 sm:flex-row sm:items-center sm:justify-between"><p>© <span id="year"></span> Ahsan Ibne Walid Shuvo · Built with curiosity.</p><a class="link" href="#home">Back to top ↑</a></footer></div></section>
 </main>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script>
 const mb=document.getElementById('menubtn'),mm=document.getElementById('mobile');mb.addEventListener('click',()=>{const open=mb.getAttribute('aria-expanded')==='true';mb.setAttribute('aria-expanded',String(!open));mm.classList.toggle('hidden',open)});mm.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{mm.classList.add('hidden');mb.setAttribute('aria-expanded','false')}));
 const els=document.querySelectorAll('.reveal');if('IntersectionObserver'in window&&!matchMedia('(prefers-reduced-motion: reduce)').matches){const ob=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('show');ob.unobserve(e.target)}}),{threshold:.12});els.forEach(e=>ob.observe(e))}else els.forEach(e=>e.classList.add('show'));
 document.getElementById('year').textContent=new Date().getFullYear();
-// Contact form: opens a prefilled draft in the visitor's configured email app.
+// EmailJS contact form. Replace these three values with the IDs/keys from your EmailJS account.
+const EMAILJS_PUBLIC_KEY='YOUR_EMAILJS_PUBLIC_KEY';
+const EMAILJS_SERVICE_ID='YOUR_EMAILJS_SERVICE_ID';
+const EMAILJS_TEMPLATE_ID='YOUR_EMAILJS_TEMPLATE_ID';
 const CONTACT_EMAIL='ahsanibnewalid732@gmail.com';
-document.getElementById('contactForm').addEventListener('submit',e=>{
+const contactForm=document.getElementById('contactForm');
+const formNote=document.getElementById('formnote');
+const sendButton=contactForm.querySelector('button[type="submit"]');
+contactForm.addEventListener('submit',async e=>{
   e.preventDefault();
-  const form=e.currentTarget;
-  if(!form.reportValidity()) return;
-  const d=new FormData(form);
-  const subject='Portfolio message from '+String(d.get('name')).trim();
-  const body='Name: '+String(d.get('name')).trim()+'\nEmail: '+String(d.get('email')).trim()+'\n\n'+String(d.get('message')).trim();
-  const mailto='mailto:'+CONTACT_EMAIL+'?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);
-  document.getElementById('formnote').textContent='Opening your email app with a prefilled draft to '+CONTACT_EMAIL+'. The message will not be sent until you press Send in your email app.';
-  window.location.href=mailto;
+  if(!contactForm.reportValidity()) return;
+  if(!window.emailjs || EMAILJS_PUBLIC_KEY.startsWith('YOUR_') || EMAILJS_SERVICE_ID.startsWith('YOUR_') || EMAILJS_TEMPLATE_ID.startsWith('YOUR_')){
+    formNote.textContent='The contact form is not connected yet. The site owner must finish the EmailJS setup.';
+    return;
+  }
+  const d=new FormData(contactForm);
+  const name=String(d.get('name')).trim();
+  const email=String(d.get('email')).trim();
+  const message=String(d.get('message')).trim();
+  sendButton.disabled=true;
+  sendButton.textContent='Sending…';
+  formNote.textContent='Sending your message securely through the configured email service…';
+  try{
+    await window.emailjs.send(EMAILJS_SERVICE_ID,EMAILJS_TEMPLATE_ID,{
+      to_email:CONTACT_EMAIL,
+      from_name:name,
+      reply_to:email,
+      subject:'Portfolio message from '+name,
+      message:message
+    });
+    formNote.textContent='Message sent successfully. Thank you for reaching out!';
+    contactForm.reset();
+  }catch(error){
+    console.error('Contact form send failed:',error);
+    formNote.textContent='Sorry, your message could not be sent. Please try again later or contact me through GitHub.';
+  }finally{
+    sendButton.disabled=false;
+    sendButton.textContent='Send message ↗';
+  }
 });
 </script>
 </body></html>
