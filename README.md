@@ -1,147 +1,153 @@
-<!-- Profile README: github.com/ahsanibnewalid -->
+<!-- Profile README for github.com/ahsanibnewalid -->
+
 <div align="center">
 
 <img src="assets/profile-banner.svg" alt="Ahsan Ibne Walid — Software Developer" width="100%" />
 
-<br/>
+<br />
 
-<a href="https://github.com/ahsanibnewalid"><img src="https://img.shields.io/badge/GitHub-Explore_my_work-111111?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
-<a href="https://www.facebook.com/ahsanibnewalidshuvo"><img src="https://img.shields.io/badge/Connect-Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="Facebook" /></a>
-<a href="https://x.com/AhsanIbnewalid"><img src="https://img.shields.io/badge/Follow-on_X-111111?style=flat-square&logo=x&logoColor=white" alt="X" /></a>
+<a href="https://ahsanibnewalid.github.io/ahsanibnewalid/"><img src="https://img.shields.io/badge/Portfolio-Visit%20website-245c42?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio website" /></a>
+<a href="https://github.com/ahsanibnewalid"><img src="https://img.shields.io/badge/GitHub-Projects-171717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub projects" /></a>
+<a href="https://www.facebook.com/ahsanibnewalidshuvo"><img src="https://img.shields.io/badge/Connect-Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" /></a>
 
-### I turn ideas into software people can actually use.
+### Software developer focused on systems, useful applications, and developer tooling.
 
-*Systems · Web platforms · Developer tools · Automation*
-
-**[Open my portfolio website →](https://ahsanibnewalid.github.io/)**
+I like understanding how things work, turning practical problems into software, and making the result easier to run, maintain, and improve.
 
 </div>
 
 ---
 
-## 01 / The developer
+## About
 
-I’m **Ahsan Ibne Walid**, an independent developer exploring how software works from the system level up to the user interface.
+I'm **Ahsan Ibne Walid**, a CSE student and independent software developer. I build and explore projects across systems programming, Linux utilities, web applications, messaging, and AI-assisted development.
 
-My repositories span Linux utilities, messaging systems, web applications, university workflows, and AI-assisted programming tools. I enjoy connecting the pieces: understanding the problem, building the implementation, making setup less painful, and documenting how it works.
+My approach is practical: understand the problem, choose tools that fit, build in manageable steps, test important paths, and document how to use the result. I value readable code, useful interfaces, sensible security boundaries, and honest documentation over inflated claims.
 
-- **Systems:** Linux, C, hardware monitoring, cross-platform desktop software
-- **Applications:** JavaScript, TypeScript, Node.js, web interfaces and APIs
-- **Product thinking:** usability, practical setup, maintainability, and clear documentation
-- **Current interests:** secure communication, campus software, and coding-agent workflows
+- **Systems & Linux:** C, command-line utilities, hardware/resource monitoring
+- **Web engineering:** JavaScript, TypeScript, Node.js, browser interfaces and APIs
+- **Application design:** authentication, role-based workflows, messaging, and administration
+- **Developer productivity:** automation, debugging workflows, and AI-assisted coding concepts
 
-> I’m learning by building. The projects below have different levels of maturity; each repository is the source of truth for its current status.
+> The repositories below are projects at different stages of development. Check each README and issue tracker for current capabilities, setup instructions, and limitations.
 
-## 02 / Selected work
-
-A selection of projects that represent the areas I’m exploring.
+## Selected projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🔐 Secure Chat System
-**Cross-platform communication**
+### Secure Chat System
+**Cross-platform messaging · Server administration**
 
-A text-chat project focused on a manageable server, client connectivity, authentication, TLS, and administration.
+A text-chat platform project exploring a manageable server, client connectivity, authentication, TLS, presence, and administration.
 
-[Repository →](https://github.com/ahsanibnewalid/secure-chat-system-with-server)
-
-</td>
-<td width="50%" valign="top">
-
-### 🎓 University Platform
-**Academic workflows**
-
-A full-stack university-management platform exploring academic structure, role-based access, and institution-wide workflows.
-
-[Repository →](https://github.com/ahsanibnewalid/university-platform)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🤖 Programming Action Bot
-**AI-assisted development**
-
-An evolving concept for a coding agent that can help plan, investigate bugs, and iterate through software tasks.
-
-[Repository →](https://github.com/ahsanibnewalid/programming-action-bot)
+[View repository →](https://github.com/ahsanibnewalid/secure-chat-system-with-server)
 
 </td>
 <td width="50%" valign="top">
 
-### 📈 Linux Hardware Monitor
-**Systems & observability**
+### University Platform
+**Full-stack application · Academic workflows**
 
-A Linux utility for inspecting real-time hardware and resource usage.
+A university-management platform focused on academic structures, role-based access, and institution-wide workflows.
 
-[Repository →](https://github.com/ahsanibnewalid/Linux-Real-Time-Hardware-Usage-Monitor)
+[View repository →](https://github.com/ahsanibnewalid/university-platform)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 💬 GF Chat
-**Web messaging experiment**
+### Programming Action Bot
+**Developer tooling · AI-assisted coding**
 
-A browser-based chat project exploring authentication, room messaging, and access-control design.
+An evolving project concept for coordinating coding assistance, task planning, debugging, and iterative software work.
 
-[Repository →](https://github.com/ahsanibnewalid/gf-chat)
+[View repository →](https://github.com/ahsanibnewalid/programming-action-bot)
 
 </td>
 <td width="50%" valign="top">
 
-### 🧰 Small tools & experiments
-**Learning by shipping**
+### Linux Real-Time Hardware Usage Monitor
+**Linux · Systems visibility**
 
-- [Java JDK 8 Installation Script](https://github.com/ahsanibnewalid/Java-JDK-8-Installation-Script)
-- [AI Chat Website — Pure JavaScript](https://github.com/ahsanibnewalid/Ai-Chat-website-Using-pure-js)
-- [Ultimate POS](https://github.com/ahsanibnewalid/Ultimate-POS)
-- [Python experiments](https://github.com/ahsanibnewalid/python)
-- [C / terminal project](https://github.com/ahsanibnewalid/Love)
+A Linux-focused utility for observing hardware and resource usage in real time.
+
+[View repository →](https://github.com/ahsanibnewalid/Linux-Real-Time-Hardware-Usage-Monitor)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### GF Chat
+**Web application · Messaging and access control**
+
+A browser-based messaging project exploring authentication, room messaging, and access-control rules.
+
+[View repository →](https://github.com/ahsanibnewalid/gf-chat)
+
+</td>
+<td width="50%" valign="top">
+
+### AI Chat Website — Pure JavaScript
+**Frontend development · Browser applications**
+
+A lightweight web chat experiment built around browser-side JavaScript.
+
+[View repository →](https://github.com/ahsanibnewalid/Ai-Chat-website-Using-pure-js)
 
 </td>
 </tr>
 </table>
 
-## 03 / Tools I work with
+### Other repositories
 
-<p>
-<img src="https://img.shields.io/badge/C-111111?style=flat-square&logo=c&logoColor=A8B9CC" alt="C" />
-<img src="https://img.shields.io/badge/JavaScript-111111?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-<img src="https://img.shields.io/badge/TypeScript-111111?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript" />
-<img src="https://img.shields.io/badge/Node.js-111111?style=flat-square&logo=nodedotjs&logoColor=5FA04E" alt="Node.js" />
-<img src="https://img.shields.io/badge/Linux-111111?style=flat-square&logo=linux&logoColor=FCC624" alt="Linux" />
-<img src="https://img.shields.io/badge/Firebase-111111?style=flat-square&logo=firebase&logoColor=FFCA28" alt="Firebase" />
-<img src="https://img.shields.io/badge/Git-111111?style=flat-square&logo=git&logoColor=F05032" alt="Git" />
-<img src="https://img.shields.io/badge/GitHub-111111?style=flat-square&logo=github&logoColor=FFFFFF" alt="GitHub" />
-</p>
+- [Java JDK 8 Installation Script](https://github.com/ahsanibnewalid/Java-JDK-8-Installation-Script) — installation automation
+- [Ultimate POS](https://github.com/ahsanibnewalid/Ultimate-POS) — point-of-sale software project
+- [Love](https://github.com/ahsanibnewalid/Love) — C / terminal-oriented project
+- [Python experiments](https://github.com/ahsanibnewalid/python) — learning and experimentation
+- [University Management System](https://github.com/ahsanibnewalid/wniversity_management_system) — earlier university-management project
 
-*These reflect technologies explored across my repositories, not a claim of equal depth or professional experience in every tool.*
-
-## 04 / How I build
-
-| Principle | What it means in practice |
-|:--|:--|
-| **Start with the user** | Understand who will run the software and what they need to do. |
-| **Make setup understandable** | Prefer clear prerequisites, configuration, and troubleshooting steps. |
-| **Build in iterations** | Break large goals into smaller changes that can be reviewed and tested. |
-| **Document reality** | Keep features, limitations, and build status honest and current. |
-| **Treat security as design** | Think carefully about authentication, permissions, secrets, and user data. |
-
-## 05 / Open to collaboration
-
-I’m interested in practical software, Linux and systems programming, web applications, developer productivity, and responsible security learning.
-
-If something here catches your eye, open an issue in the relevant repository. Useful feedback, bug reports, and thoughtful collaboration are welcome.
+## Technical toolkit
 
 <div align="center">
 
-**Build with intent. Keep it understandable. Improve it continuously.**
+<img src="https://img.shields.io/badge/C-20232A?style=flat-square&logo=c&logoColor=A8B9CC" alt="C" />
+<img src="https://img.shields.io/badge/JavaScript-20232A?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+<img src="https://img.shields.io/badge/TypeScript-20232A?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript" />
+<img src="https://img.shields.io/badge/Node.js-20232A?style=flat-square&logo=nodedotjs&logoColor=5FA04E" alt="Node.js" />
+<img src="https://img.shields.io/badge/Python-20232A?style=flat-square&logo=python&logoColor=3776AB" alt="Python" />
+<img src="https://img.shields.io/badge/Linux-20232A?style=flat-square&logo=linux&logoColor=FCC624" alt="Linux" />
+<img src="https://img.shields.io/badge/Firebase-20232A?style=flat-square&logo=firebase&logoColor=FFCA28" alt="Firebase" />
+<img src="https://img.shields.io/badge/Git-20232A?style=flat-square&logo=git&logoColor=F05032" alt="Git" />
+<img src="https://img.shields.io/badge/GitHub_Actions-20232A?style=flat-square&logo=githubactions&logoColor=2088FF" alt="GitHub Actions" />
 
-<sub>Thanks for stopping by — explore a repository and see what’s being built.</sub>
+</div>
+
+*This toolkit reflects technologies used or explored across my projects; it isn't a claim of equal expertise in every technology.*
+
+## Engineering principles
+
+| Principle | How I apply it |
+|---|---|
+| **Solve the real problem** | Start with the people using the software and the task they need to complete. |
+| **Keep systems understandable** | Make setup, configuration, error messages, and maintenance approachable. |
+| **Build incrementally** | Break ambitious ideas into changes that can be reviewed and tested. |
+| **Respect security boundaries** | Treat authentication, permissions, secrets, and user data as design concerns. |
+| **Document honestly** | Explain prerequisites, actual features, known limitations, and how to reproduce results. |
+
+## Collaboration
+
+I'm interested in practical software engineering, Linux and systems programming, full-stack applications, developer tools, and responsible security learning.
+
+For a project, the best place to start is its repository. Bug reports, reproducible examples, constructive reviews, and thoughtful collaboration are welcome.
+
+<div align="center">
+
+**Build deliberately. Explain clearly. Improve continuously.**
+
+<sub>Portfolio: <a href="https://ahsanibnewalid.github.io/ahsanibnewalid/">ahsanibnewalid.github.io/ahsanibnewalid</a></sub>
 
 </div>
