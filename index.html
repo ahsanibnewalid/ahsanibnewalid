@@ -76,7 +76,18 @@
 const mb=document.getElementById('menubtn'),mm=document.getElementById('mobile');mb.addEventListener('click',()=>{const open=mb.getAttribute('aria-expanded')==='true';mb.setAttribute('aria-expanded',String(!open));mm.classList.toggle('hidden',open)});mm.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{mm.classList.add('hidden');mb.setAttribute('aria-expanded','false')}));
 const els=document.querySelectorAll('.reveal');if('IntersectionObserver'in window&&!matchMedia('(prefers-reduced-motion: reduce)').matches){const ob=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('show');ob.unobserve(e.target)}}),{threshold:.12});els.forEach(e=>ob.observe(e))}else els.forEach(e=>e.classList.add('show'));
 document.getElementById('year').textContent=new Date().getFullYear();
-// Replace this value with a public contact email if you want the form to work.
-const CONTACT_EMAIL='';document.getElementById('contactForm').addEventListener('submit',e=>{e.preventDefault();if(!CONTACT_EMAIL){document.getElementById('formnote').textContent='To enable email drafts, add your preferred public email to CONTACT_EMAIL in this file. You can also contact me through the social links above.';return}const d=new FormData(e.currentTarget);location.href='mailto:'+CONTACT_EMAIL+'?subject='+encodeURIComponent('Portfolio message from '+d.get('name'))+'&body='+encodeURIComponent('Name: '+d.get('name')+'\nEmail: '+d.get('email')+'\n\n'+d.get('message'))});
+// Contact form: opens a prefilled draft in the visitor's configured email app.
+const CONTACT_EMAIL='ahsanshuvo89@gmail.com';
+document.getElementById('contactForm').addEventListener('submit',e=>{
+  e.preventDefault();
+  const form=e.currentTarget;
+  if(!form.reportValidity()) return;
+  const d=new FormData(form);
+  const subject='Portfolio message from '+String(d.get('name')).trim();
+  const body='Name: '+String(d.get('name')).trim()+'\nEmail: '+String(d.get('email')).trim()+'\n\n'+String(d.get('message')).trim();
+  const mailto='mailto:'+CONTACT_EMAIL+'?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);
+  document.getElementById('formnote').textContent='Opening your email app with a prefilled draft to '+CONTACT_EMAIL+'. The message will not be sent until you press Send in your email app.';
+  window.location.href=mailto;
+});
 </script>
 </body></html>
