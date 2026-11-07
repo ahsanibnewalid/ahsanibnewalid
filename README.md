@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="assets/profile-banner.svg" alt="Ahsan Ibne Walid — Software Developer" width="100%" />
+<img src="assets/profile-banner.svg" alt="Ahsan Ibne Walid — Software Developer, Educator & Linux Enthusiast" width="100%" />
 
 <br />
 
@@ -10,144 +10,117 @@
 <a href="https://github.com/ahsanibnewalid"><img src="https://img.shields.io/badge/GitHub-Projects-171717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub projects" /></a>
 <a href="https://www.facebook.com/ahsanibnewalidshuvo"><img src="https://img.shields.io/badge/Connect-Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" /></a>
 
-### Software developer focused on systems, useful applications, and developer tooling.
+### Software Developer · ICT Educator · Open-Source Believer · Linux Enthusiast
 
-I like understanding how things work, turning practical problems into software, and making the result easier to run, maintain, and improve.
+**Building useful software, sharing knowledge, supporting open communities, and enjoying every ride along the way.**
 
 </div>
 
 ---
 
-## About
+## 👋 About Me
 
-I'm **Ahsan Ibne Walid**, a CSE student and independent software developer. I build and explore projects across systems programming, Linux utilities, web applications, messaging, and AI-assisted development.
+I'm **Ahsan Ibne Walid Shuvo** — a software developer, educator, technology enthusiast, and lifelong learner from Bangladesh.
 
-My approach is practical: understand the problem, choose tools that fit, build in manageable steps, test important paths, and document how to use the result. I value readable code, useful interfaces, sensible security boundaries, and honest documentation over inflated claims.
+I'm currently a **3rd-year Computer Science & Engineering (CSE) student at Siddheswari College, National University**. Alongside my studies, I work on software projects, teach ICT and practical digital skills, explore Linux and open-source technologies, and share my experiences as a motorcycle enthusiast and moto blogger.
 
-- **Systems & Linux:** C, command-line utilities, hardware/resource monitoring
-- **Web engineering:** JavaScript, TypeScript, Node.js, browser interfaces and APIs
-- **Application design:** authentication, role-based workflows, messaging, and administration
-- **Developer productivity:** automation, debugging workflows, and AI-assisted coding concepts
+My interests go beyond writing code. I enjoy learning how technology works, helping others become more confident with it, participating in communities, and turning ideas into practical tools.
 
-> The repositories below are projects at different stages of development. Check each README and issue tracker for current capabilities, setup instructions, and limitations.
+- 🎓 **Education:** 3rd-year CSE student, Siddheswari College — National University
+- 💻 **Development:** Software development, web applications, APIs, automation, and systems programming
+- 🧑‍🏫 **Teaching:** HSC ICT instruction and practical ICT / skill-development courses
+- 🐧 **Linux:** Linux-based operating systems, command-line tools, customization, and open-source software
+- 🌍 **Community:** Strong believer in open source, collaboration, accessible knowledge, and learning in public
+- 🏍️ **Moto blogging:** Motorcycle rides, experiences, road stories, and motorcycle culture
+- 🤝 **Leadership & community:** Former student politician; interested in communication, teamwork, and community engagement
 
-## Selected projects
+## What I Do
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### 💻 Software Development
 
-### Secure Chat System
-**Cross-platform messaging · Server administration**
+I enjoy designing and building practical software that solves real problems. My project interests include:
 
-A text-chat platform project exploring a manageable server, client connectivity, authentication, TLS, presence, and administration.
+- Full-stack web applications and backend services
+- University, education, business, and productivity systems
+- Authentication, authorization, role-based workflows, and administration
+- Messaging and client-server applications
+- Linux utilities, command-line tools, and systems programming
+- Automation, deployment, debugging, and developer tooling
 
-[View repository →](https://github.com/ahsanibnewalid/secure-chat-system-with-server)
+### 🧑‍🏫 ICT Education & Skill Development
 
-</td>
-<td width="50%" valign="top">
+I teach **HSC-level ICT** and practical skill-development topics. I believe technology education should be understandable, hands-on, and connected to real-world use.
 
-### University Platform
-**Full-stack application · Academic workflows**
+I enjoy helping learners build strong fundamentals, understand concepts instead of memorizing them, and develop useful digital skills.
 
-A university-management platform focused on academic structures, role-based access, and institution-wide workflows.
+### 🐧 Linux & Open Source
 
-[View repository →](https://github.com/ahsanibnewalid/university-platform)
+I love Linux-based operating systems and the freedom to understand, customize, and improve the tools I use.
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+I believe open source is about more than code: it's about shared knowledge, transparency, collaboration, and making technology more accessible. I'm always interested in learning from open-source projects and contributing where I can.
 
-### Programming Action Bot
-**Developer tooling · AI-assisted coding**
+### 🏍️ Motorcycles & Moto Blogging
 
-An evolving project concept for coordinating coding assistance, task planning, debugging, and iterative software work.
+Away from the keyboard, I'm passionate about motorcycles and moto blogging. I enjoy the machines, the journeys, the people, and the stories that come with riding.
 
-[View repository →](https://github.com/ahsanibnewalid/programming-action-bot)
-
-</td>
-<td width="50%" valign="top">
-
-### Linux Real-Time Hardware Usage Monitor
-**Linux · Systems visibility**
-
-A Linux-focused utility for observing hardware and resource usage in real time.
-
-[View repository →](https://github.com/ahsanibnewalid/Linux-Real-Time-Hardware-Usage-Monitor)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### GF Chat
-**Web application · Messaging and access control**
-
-A browser-based messaging project exploring authentication, room messaging, and access-control rules.
-
-[View repository →](https://github.com/ahsanibnewalid/gf-chat)
-
-</td>
-<td width="50%" valign="top">
-
-### AI Chat Website — Pure JavaScript
-**Frontend development · Browser applications**
-
-A lightweight web chat experiment built around browser-side JavaScript.
-
-[View repository →](https://github.com/ahsanibnewalid/Ai-Chat-website-Using-pure-js)
-
-</td>
-</tr>
-</table>
-
-### Other repositories
-
-- [Java JDK 8 Installation Script](https://github.com/ahsanibnewalid/Java-JDK-8-Installation-Script) — installation automation
-- [Ultimate POS](https://github.com/ahsanibnewalid/Ultimate-POS) — point-of-sale software project
-- [Love](https://github.com/ahsanibnewalid/Love) — C / terminal-oriented project
-- [Python experiments](https://github.com/ahsanibnewalid/python) — learning and experimentation
-- [University Management System](https://github.com/ahsanibnewalid/wniversity_management_system) — earlier university-management project
-
-## Technical toolkit
+## 🧰 Technologies & Tools
 
 <div align="center">
 
 <img src="https://img.shields.io/badge/C-20232A?style=flat-square&logo=c&logoColor=A8B9CC" alt="C" />
+<img src="https://img.shields.io/badge/Python-20232A?style=flat-square&logo=python&logoColor=3776AB" alt="Python" />
 <img src="https://img.shields.io/badge/JavaScript-20232A?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
 <img src="https://img.shields.io/badge/TypeScript-20232A?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript" />
 <img src="https://img.shields.io/badge/Node.js-20232A?style=flat-square&logo=nodedotjs&logoColor=5FA04E" alt="Node.js" />
-<img src="https://img.shields.io/badge/Python-20232A?style=flat-square&logo=python&logoColor=3776AB" alt="Python" />
+<img src="https://img.shields.io/badge/HTML5-20232A?style=flat-square&logo=html5&logoColor=E34F26" alt="HTML5" />
+<img src="https://img.shields.io/badge/CSS3-20232A?style=flat-square&logo=css3&logoColor=1572B6" alt="CSS3" />
 <img src="https://img.shields.io/badge/Linux-20232A?style=flat-square&logo=linux&logoColor=FCC624" alt="Linux" />
-<img src="https://img.shields.io/badge/Firebase-20232A?style=flat-square&logo=firebase&logoColor=FFCA28" alt="Firebase" />
 <img src="https://img.shields.io/badge/Git-20232A?style=flat-square&logo=git&logoColor=F05032" alt="Git" />
-<img src="https://img.shields.io/badge/GitHub_Actions-20232A?style=flat-square&logo=githubactions&logoColor=2088FF" alt="GitHub Actions" />
+<img src="https://img.shields.io/badge/GitHub-20232A?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+<img src="https://img.shields.io/badge/Firebase-20232A?style=flat-square&logo=firebase&logoColor=FFCA28" alt="Firebase" />
 
 </div>
 
-*This toolkit reflects technologies used or explored across my projects; it isn't a claim of equal expertise in every technology.*
+*This list reflects technologies I use or explore across projects; it isn't a claim of equal expertise in every tool.*
 
-## Engineering principles
+## 🚀 Selected Projects
 
-| Principle | How I apply it |
+Here are a few projects and areas you can explore. Projects evolve over time, so check each repository for its current status, setup instructions, and known limitations.
+
+| Project | What it's about |
 |---|---|
-| **Solve the real problem** | Start with the people using the software and the task they need to complete. |
-| **Keep systems understandable** | Make setup, configuration, error messages, and maintenance approachable. |
-| **Build incrementally** | Break ambitious ideas into changes that can be reviewed and tested. |
-| **Respect security boundaries** | Treat authentication, permissions, secrets, and user data as design concerns. |
-| **Document honestly** | Explain prerequisites, actual features, known limitations, and how to reproduce results. |
+| [University Platform](https://github.com/ahsanibnewalid/university-platform) | A university-management platform exploring academic and institutional workflows. |
+| [Ultimate POS](https://github.com/ahsanibnewalid/Ultimate-POS) | A point-of-sale and business-management software project. |
+| [Manage Social Media](https://github.com/ahsanibnewalid/managesocialmedia) | A social-media management application project. |
+| [Secure Chat System](https://github.com/ahsanibnewalid/secure-chat-system-with-server) | Client-server messaging and authentication experiments. |
+| [Linux Real-Time Hardware Usage Monitor](https://github.com/ahsanibnewalid/Linux-Real-Time-Hardware-Usage-Monitor) | A Linux utility for monitoring hardware and system resources. |
+| [GF Chat](https://github.com/ahsanibnewalid/gf-chat) | A browser-based messaging application project. |
+| [AI Chat Website — Pure JavaScript](https://github.com/ahsanibnewalid/Ai-Chat-website-Using-pure-js) | A lightweight browser-based chat experiment. |
+| [Programming Action Bot](https://github.com/ahsanibnewalid/programming-action-bot) | An evolving project around programming workflows and automation. |
 
-## Collaboration
+## 🌱 What I Believe In
 
-I'm interested in practical software engineering, Linux and systems programming, full-stack applications, developer tools, and responsible security learning.
+- **Keep learning:** Technology changes; curiosity should not.
+- **Share knowledge:** What we learn becomes more valuable when we help others learn it.
+- **Build for people:** Useful software starts with real needs.
+- **Support open source:** Collaboration makes the ecosystem stronger.
+- **Stay practical:** Build, test, document, improve, and be honest about limitations.
+- **Enjoy the journey:** Progress matters more than pretending to know everything.
 
-For a project, the best place to start is its repository. Bug reports, reproducible examples, constructive reviews, and thoughtful collaboration are welcome.
+## 🤝 Let's Connect & Collaborate
+
+I'm interested in connecting with developers, educators, Linux users, open-source contributors, students, and people building useful things.
+
+If you want to discuss a project, exchange ideas, collaborate on open source, or talk about ICT education and technology, feel free to reach out.
 
 <div align="center">
 
-**Build deliberately. Explain clearly. Improve continuously.**
+<a href="https://github.com/ahsanibnewalid"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+<a href="https://ahsanibnewalid.github.io/ahsanibnewalid/"><img src="https://img.shields.io/badge/Portfolio-Explore-245c42?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+<a href="https://www.facebook.com/ahsanibnewalidshuvo"><img src="https://img.shields.io/badge/Facebook-Connect-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" /></a>
 
-<sub>Portfolio: <a href="https://ahsanibnewalid.github.io/ahsanibnewalid/">ahsanibnewalid.github.io/ahsanibnewalid</a></sub>
+<br />
+
+**Code with purpose. Teach with passion. Ride with freedom. Believe in open source.**
 
 </div>
